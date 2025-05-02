@@ -126,8 +126,8 @@ def main_loop():
     while True:
         console.print("[bold cyan]🚀 Starting reward claim process...[/bold cyan]")
         claim_reward(wallets, web3, contract)
-        console.print("[bold cyan]🕒 Waiting 18 hours before next claim cycle...[/bold cyan]")
-        time.sleep(18 * 3600)  # 18 hours in seconds
+        console.print("[bold cyan]🕒 Waiting 21 hours before next claim cycle...[/bold cyan]")
+        time.sleep(21 * 3600)  # 18 hours in seconds
 
 if __name__ == "__main__":
     main_loop()
